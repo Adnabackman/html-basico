@@ -1,0 +1,48 @@
+html{
+    color:rgb(250, 235, 249);
+    background-color: rgb(192, 169, 199);
+    background-image: url("imagem1.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size:auto;
+    font-weight: 600;
+    font-style:inherit;
+}
+main p{
+    font-family: cursive;
+    font-size: 15px;
+    text-indent: 2rem;
+    text-align: left;
+}
+h1, h2{
+    text-align: center;
+}
+a:hover{
+    color:rgb(223, 54, 133);
+    cursor:pointer;  
+}
+.titulo__aula1{
+    color:rgb(250, 235, 249);
+    text-decoration:none;
+    
+}
+.texto__conteudo{
+    color: rgb(28, 5, 31);
+    text-indent: 2rem;
+}
+
+/*cores hexadecimais usa o # com 16 algarismos entre numeros
+de 0 a 9 e letras entre A e F.
+
+No caso se quisesse usar o hexadecimal no lugar do rgb ficaria assim:
+
+html{
+    color: ##f55899;
+}
+.titulo__aula1{
+    color: #c50354;
+}
+.texto__conteudo{
+    color: #220411;
+}*/
